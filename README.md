@@ -20,11 +20,11 @@ Explored it using .head(), .info(), and .isnull().sum() to check structure and m
 Filled missing values in the Age column using the mean.
 Checked that all missing values were handled (isnull().sum() showed 0).
 
-3**Encoded Categorical Variables**
+3.**Encoded Categorical Variables**
 Converted the Sex and Embarked columns into numeric values using one-hot encoding.
 Used drop_first=True to avoid multicollinearity.
 
-4**Normalized Numerical Columns**
+4.**Normalized Numerical Columns**
 
 Standardized the Age and Fare columns using StandardScaler so they have a mean of 0 and standard deviation of 1.
 
